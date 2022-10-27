@@ -1,0 +1,78 @@
+:root {
+    --bs-body-font-size: 0.8rem !important;
+}
+
+#nav-height {
+    height: 80px !important;
+}
+
+.myTitle {
+    font-size: 2.6rem;
+    font-weight: 400;
+    color:rgb(80, 80, 80) !important;
+}
+
+.text-black-50 {
+    --bs-text-opacity: 1;
+    color: rgba(0,0,0,0.2)!important;
+}
+
+.link-secondary {
+    --bs-text-opacity: 1;
+    color: rgba(0,0,0,0.2)!important;
+}
+
+p {
+    margin-bottom: 3px !important;
+}
+
+.myAboutUs {
+    background-color: rgb(3, 180, 166);
+}
+
+.myOurTeam {
+    background-color: rgb(73, 160, 95);
+}
+
+.myResume {
+    background-color: rgb(194, 83, 69);
+}
+
+.myOurWorks {
+    background-color: rgb(79, 170, 197);
+}
+
+.bi-images {
+    font-size: 5rem !important;
+}
+
+.myContacts {
+    background-color: rgb(201, 63, 136);
+}
+
+.myBlog {
+    background-color: rgb(214, 112, 39);
+}
+
+.myFeedback {
+    background-color: rgb(230, 161, 33);
+}
+
+
+@media screen and (min-width: 992px) {
+    #main-height {
+        height: 280px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #main-height {
+        height: 360px !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #main-height {
+        height: 400px !important;
+    }
+}
